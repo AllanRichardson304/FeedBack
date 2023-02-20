@@ -5,7 +5,7 @@ function Ratingselect({select}) {
     const handleChange = (e) =>{
         setSelected(+e.currentTarget.value)
         select(+e.currentTarget.value)
-    }
+    } 
   return (
     <div>
     <ul className='rating'>
@@ -63,7 +63,7 @@ function Ratingselect({select}) {
             checked ={selected === 5}
           />
           <label htmlFor='num5' >5</label>
-        </li>
+        </li> 
         <li >
           <input
             type='radio'
