@@ -30,3 +30,8 @@ function App() {
   );
 }
 export default App;
+
+
+// netlify url 
+
+// https://cerulean-dolphin-5033a2.netlify.app/
